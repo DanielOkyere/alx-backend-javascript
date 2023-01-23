@@ -1,7 +1,3 @@
-#!/usr/bin/env node
-/**
- * Block scoped
- */
 export default function taskBlock(trueOrFalse) {
   let task = false;
   let task2 = true;
