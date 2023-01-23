@@ -1,3 +1,3 @@
-export default function concatArrays(...myArguments) {
-  return [].concat(...myArguments.map((el) => [...el]));
+export default function concatArrays(array1, array2, string) {
+  return [...array1, ...array2, ...string];
 }
