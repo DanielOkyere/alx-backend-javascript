@@ -1,7 +1,3 @@
 export default function concatArrays(...myArguments) {
-  const result = [];
-  for (const arg of myArguments) {
-    result.push(...arg);
-  }
-  return result;
+  return [].concat(...myArguments.map((el) => [...el]));
 }
