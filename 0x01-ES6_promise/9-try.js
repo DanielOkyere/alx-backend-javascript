@@ -1,4 +1,4 @@
-export default function gaurdrail(mathFunction) {
+export default function guardrail(mathFunction) {
   const queue = [];
   let val;
   try {
@@ -7,6 +7,6 @@ export default function gaurdrail(mathFunction) {
     val = err.toString();
   }
 
-  queue.push(val, 'Gaurdrail was processed');
+  queue.push(val, 'Guardrail was processed');
   return queue;
 }
