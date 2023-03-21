@@ -1,8 +1,8 @@
 /*
 Execute basic javascript with node
 */
-function displayMessage(str) {
-  process.stdout.write(`${str}`);
+function displayMessage(message) {
+  console.log(message);
 }
 
 module.exports = displayMessage;
