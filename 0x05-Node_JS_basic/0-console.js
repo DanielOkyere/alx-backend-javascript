@@ -1,7 +1,8 @@
 /*
 Execute basic javascript with node
 */
-
-export default function displayMessage(str) {
+function displayMessage(str) {
   process.stdout.write(`${str}`);
 }
+
+export default displayMessage;
