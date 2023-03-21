@@ -5,4 +5,4 @@ function displayMessage(str) {
   process.stdout.write(`${str}`);
 }
 
-export default displayMessage;
+module.exports = displayMessage;
