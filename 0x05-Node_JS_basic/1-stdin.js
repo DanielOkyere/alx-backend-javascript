@@ -1,5 +1,5 @@
 /* Using Process stdin */
-console.log('Welcome to Holberton School, what is your name?');
+console.log('Welcome to Holberton School, what is your name?\n');
 if (process.stdin.isTTY) {
   process.stdin.on('data', (data) => {
     console.log(`Your name is ${data.toString()}`);
@@ -11,6 +11,6 @@ if (process.stdin.isTTY) {
     process.exit();
   });
   process.on('exit', () => {
-    process.stdout.write('This important software is now closing');
+    process.stdout.write('This important software is now closing\n');
   });
 }
