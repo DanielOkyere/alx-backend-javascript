@@ -1,7 +1,7 @@
 /**
  * Test Scripts
  */
-const { assert } = require('chai');
+const assert = require('assert');
 const calcul = require('./0-calcul');
 
 describe('Test 0-calcul', () => {
